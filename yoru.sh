@@ -13,8 +13,8 @@ if [ -z "$VARIANT" ]; then
 fi
 
 # ================= PATH =================
-DEFCONFIG="tissot_defconfig"
-TEMP_DEFCONFIG="tissot_temp_defconfig"
+DEFCONFIG="vince-perf_defconfig"
+TEMP_DEFCONFIG="vince-perf_temp_defconfig"
 ROOTDIR=$(pwd)
 OUTDIR="$ROOTDIR/out/arch/arm64/boot"
 ANYKERNEL_DIR="$ROOTDIR/AnyKernel"
